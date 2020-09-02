@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Selectores Hijos</title>
+<style>
+
+/* any article element which is a direct child of a section element,i.e., any article element whose immediate parent is a section element. */
+section > article {
+  color: yellow;
+  font-size: 24px;
+}
+
+/* any h2 element which is a direct child of a section element,i.e., any h2 element whose immediate parent is a section element. */
+section > h2 {
+  color: green;
+}
+
+</style>
+</head>
+<body>
+<h1>Selectores Hijos</h1>
+<section>
+  <h2>Subtitulo 1</h2>
+  <div>
+    <article>Articulo entro del div y dentro de section.</article>
+  </div>
+</section>
+<section>
+  <article>ARTICULO como hijo directo del elemento Section</article>
+</section>
+<h2>Subtitulo 2</h2>
+
+</body>
+</html>
